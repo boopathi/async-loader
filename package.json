@@ -1,0 +1,22 @@
+{
+  "name": "async-loader",
+  "version": "0.0.1",
+  "description": "async webpack loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boopathi/async-loader"
+  },
+  "keywords": [
+    "async-loader"
+  ],
+  "author": "boopathi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boopathi/async-loader/issues"
+  },
+  "homepage": "https://github.com/boopathi/async-loader"
+}
