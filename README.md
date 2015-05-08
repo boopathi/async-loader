@@ -4,6 +4,8 @@ A webpack loader for async source modification. Supports only Promises for now.
 
 ## Usage
 
+`npm i async-loader`
+
 [Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
 
 ```js
