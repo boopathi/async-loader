@@ -15,7 +15,7 @@ module.exports = function(source) {
 	}
 
 	this
-		.options[key](this, source)
+		.options[key](source, this)
 		.then(function(nextSource) {
 			cb(null, nextSource);
 		});

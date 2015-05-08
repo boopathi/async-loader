@@ -17,14 +17,16 @@ var content = require('async?key=reportToServer!./file.txt');
 
 #### key (required)
 
-The config key whose value is an async function. This function can return only a Promise and is called with `loaderContext` and `source`.
+The config key whose value is an async function with signature,
+
+`function (source: string, loaderContext: Object): Promise`
 
 ## Example
 
 ```js
 // webpack.config.js
 module.exports = {
-    uploadImage: function(loaderContext, imageJson) {
+    uploadImage: function(imageJson) {
         var image = JSON.parse(imageJson);
         return new Promise(function(resolve, reject) {
             request.get(
