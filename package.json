@@ -1,6 +1,6 @@
 {
   "name": "async-loader",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "async webpack loader",
   "main": "index.js",
   "scripts": {
