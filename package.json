@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/boopathi/async-loader/issues"
   },
-  "homepage": "https://github.com/boopathi/async-loader"
+  "homepage": "https://github.com/boopathi/async-loader",
+  "dependencies": {
+    "loader-utils": "^0.2.7"
+  }
 }
