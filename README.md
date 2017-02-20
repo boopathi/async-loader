@@ -1,5 +1,7 @@
 # async-loader
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/boopathi/async-loader.svg)](https://greenkeeper.io/)
+
 A webpack loader for async source modification. Supports only Promises for now.
 
 ## Usage
